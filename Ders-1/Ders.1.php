@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="Tr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Teknolojileri ve Programlama -I  </title>
+    <title>Web Teknolojileri ve Programlama -I </title>
 </head>
+
 <body>
     <!-- Açıklama Satırı -->
     <?php
@@ -22,14 +24,14 @@
         \ Kaçış karakteridir. Özel İfadelerden önce kullanılır.x
         */
 
-     echo "<h3> Aydın Adnan Menderes Ünİversitesi</h3>"; 
-     echo "<h4> Aydın Meslek Yüksekokulu </h4>"; 
-     echo " Bilgisayar Programcılığı " . "Web Teknolojileri" . "<br>" ;
-     echo "Bilgisayar Programcılığı " . "<br>" . "Web Teknolojileri";
+    echo "<h3> Aydın Adnan Menderes Ünİversitesi</h3>";
+    echo "<h4> Aydın Meslek Yüksekokulu </h4>";
+    echo " Bilgisayar Programcılığı " . "Web Teknolojileri" . "<br>";
+    echo "Bilgisayar Programcılığı " . "<br>" . "Web Teknolojileri";
 
 
-     echo "<hr> <h4> Değişken Tanımlama Kuralları </h4>";
-     echo "<ol>
+    echo "<hr> <h4> Değişken Tanımlama Kuralları </h4>";
+    echo "<ol>
               <li> Değişken isimleri $ ile başlar </li>
               <li> Değişkenler Ekrana echo ile yazdırılır </li>
               <li> Değişken isimleri sayılsal bir ifade ile başlamaz </li>
@@ -40,18 +42,18 @@
               <li> Değişken içerisinde eğer sayısal bir ifade varsa tırnak kullanılmadan yazılır. </li>  
               <li> Değişkenin ismi, değişkenin içeriğini ifade etmelidir. </li>
      </ol>";
-     
-     echo "<hr> <h4> Değişken Tanımlama Örnekleri </h4>";
 
-     $isim = "Ahmet" ;
-     $soyisim = "Davut";
-     $yas = 34;
+    echo "<hr> <h4> Değişken Tanımlama Örnekleri </h4>";
 
-     echo $isim ." ". $soyisim;
-     echo "<br>";
-     echo "$isim $soyisim";
+    $isim = "Ahmet";
+    $soyisim = "Davut";
+    $yas = 34;
 
-     /*  Uygulama:
+    echo $isim . " " . $soyisim;
+    echo "<br>";
+    echo "$isim $soyisim";
+
+    /*  Uygulama:
          
           Üniversite-MYO-Ad-Soyad-Numara değişkenlerini içeriğini uygun şekilde doldurunuz.
           Girilen bu değişkenlerin değerlerini bir html tablo içerisinde gösteriniz.
@@ -64,7 +66,7 @@
 
 
 
-     /* Değişken tanımlama Kuralları
+    /* Değişken tanımlama Kuralları
     
 
      */
@@ -72,7 +74,7 @@
 
 
 
-     
+
 
 
     ?>
